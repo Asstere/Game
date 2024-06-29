@@ -1,8 +1,7 @@
-[gd_scene format=3 uid="uid://c6nkcodffl252"]
+[gd_scene load_steps=2 format=3 uid="uid://c6nkcodffl252"]
+
+[ext_resource type="PackedScene" uid="uid://dihpadbli0k1k" path="res://background.tscn" id="1_g37aa"]
 
 [node name="cafescene" type="Node2D"]
 
-[node name="Label" type="Label" parent="."]
-offset_right = 40.0
-offset_bottom = 23.0
-text = "Hallooo :3"
+[node name="background" parent="." instance=ExtResource("1_g37aa")]
